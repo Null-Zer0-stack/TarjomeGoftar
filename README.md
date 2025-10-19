@@ -5,4 +5,7 @@
 
  - ترجمه انگلیسی به فارسی ✅ 
  - فارسی به انگلیسی  ❌ (به زودی)
+
+
 ![Image](https://github.com/user-attachments/assets/bac53372-120b-479b-8b64-164b61562c0e)
+
