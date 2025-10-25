@@ -5,7 +5,7 @@
 #include <QtWidgets/qlineedit.h>
 #include <QtWidgets/qlabel.h>
 #include <QtWidgets/qpushbutton.h>
-
+#include <QtWidgets/qcombobox.h>
 
 class MainWindow : public QMainWindow
 {
@@ -20,8 +20,9 @@ private slots:
     void on_networkReply_finished(QNetworkReply* reply);
 
 private:
-    QLineEdit* wordLineEdit;
-    QPushButton* translateButton;
-    QLabel* translationLabel;
-    QNetworkAccessManager* networkManager;
+    QLineEdit *wordLineEdit;
+    QPushButton *translateButton;
+    QLabel *translationLabel;
+    QNetworkAccessManager *networkManager;
+    QComboBox *selectLang;
 };
